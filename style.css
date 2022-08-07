@@ -59,6 +59,17 @@ header {
   flex: 1;
 }
 
+#scroll-top {
+    color: #dfedf5;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #141e4c;
+    width: 40px;
+    height: 40px;
+    visibility: hidden;
+}
+
 @media (max-width: 576px) {
   .current-weather {
     text-align: center;
